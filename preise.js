@@ -7,7 +7,7 @@ const KINDERPREIS = 7.00;
 const SENIORENPREIS = 8.50;
 
 function berechnePreis(alter) {
-  if (alter > 14) {
+  if (alter < 14) {
     return KINDERPREIS;
   }
   if (alter >= 65) {
